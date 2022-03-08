@@ -23,7 +23,6 @@ Install Python Flask dependency
     pip install flask
 
 - Copy app.py or download it from source repository
-- Configure database credentials and parameters 
 
 ## 3. Start Web Server
 
