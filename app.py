@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Bem Vindo Alunos!!!"
+    return '<h1><p style="color:' + os.environ.get('APP_COLOR', 'black') + '">Hello World</p></h1>'
 
-@app.route('/comovai')
+@app.route('/api')
 def hello():
-    return 'Melhor Agora!!!'
+    return '{status: ok}'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
