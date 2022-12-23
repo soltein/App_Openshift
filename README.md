@@ -34,5 +34,5 @@ Start web server
 
 Open a browser and go to URL
 
-    http://<IP>:8080                            => Bem Vindo
-    http://<IP>:8080/comovai                    => Melhor agora!
+    http://<IP>:8080                        => Hello World!
+    http://<IP>:8080/api                    => {status: ok}
